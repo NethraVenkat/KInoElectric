@@ -1,0 +1,8 @@
+package com.backend.javaleap.entity.enums;
+
+/** Detailed account role; RECEIVABLE/PAYABLE lines require a contact. */
+public enum AccountSubType {
+    GROUP, FIXED_ASSET, CURRENT_ASSET, RECEIVABLE, BANK, CASH, TAX_INPUT,
+    PAYABLE, CURRENT_LIABILITY, TAX_OUTPUT, EQUITY, RETAINED_EARNINGS,
+    OPERATING_REVENUE, OTHER_INCOME, OPERATING_EXPENSE, OTHER_EXPENSE
+}
